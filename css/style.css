@@ -1,0 +1,436 @@
+@media screen and (min-width:1300px) {
+    .hamburgermenu{
+        display: none;
+    }
+    body{
+        max-width: 100%;
+        font-family: sans-serif;
+    }
+    .index-container{
+    }
+    .carousel-container{
+        width: 70%;
+        border: 5px solid black;
+        overflow: hidden;
+        position: relative;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .carousel-slide{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    .carousel-slide img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #prevBtn{
+        position: absolute;
+        top: 50%;
+        z-index: 10;
+        left: 5%;
+        font-size: 50px; 
+        color: black;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+    #nextBtn{
+        position: absolute;
+        top: 50%;
+        z-index: 10;
+        right: 5%;
+        font-size: 50px;
+        color: black;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+    .header_img{
+        width:100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .container h1{
+        text-align: center;
+        font-size: 40px;
+        padding: 10px;
+    }
+    .navbar{
+        width: 100%;
+        margin: none;
+        height: 80px;
+        background-color: #354649;
+    }
+    .navbar p{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #E0E7E9;
+        font-size: 35px;
+        line-height: 10px;
+        float: left;
+        padding: 0px 20px;
+    }
+    .navbar ul{
+        float: left;
+    }
+    .navbar ul li{
+        float: left;
+        list-style: none;
+        position: relative;
+    }
+    .navbar ul li a{
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #E0E7E9;
+        font-size: 25px;
+        padding: 10px 15px;
+        text-decoration: none;
+    }
+    .navbar ul li ul{
+        display: none;
+        position: absolute;
+        background-color:#354649;
+        padding: 10px;
+    }
+    .navbar ul li:hover ul{ 
+        display: block;
+    }
+    .navbar ul li ul li a {
+       padding: 8px 15px;
+    }
+    .navbar ul li ul li a:hover{
+        background-color: #A3C6C4;
+    }
+    .senaste img{
+        height: 300px;
+        width: 300px;
+    }
+    .senaste{
+        display: flex;
+        justify-content: space-around;
+    }
+    .index-link a{
+        height: 30px;
+        width: 300px;
+        text-align: center;
+        font-size: 30px;
+        color: black;
+    }
+    .index-link{
+        display: flex;
+        justify-content: space-around;
+    }
+    .index-link a:hover{
+        color: cornflowerblue;
+        font-size: 40px;
+    }
+    h3{
+        text-align: center;
+        margin: 20px;
+    }
+    .container h2{
+        text-align: center;
+        font-size: 45px;
+        padding: 10px;
+    }
+    footer{
+        height: 40px;
+        width: 100%;
+        background-color: #354649;
+        color: #E0E7E9;
+        margin-top: 30px;
+    }
+    
+
+    .jeju-content-container{
+        width: 100%;
+        background-color: white;
+    }
+    .jeju-content-container img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 1100px;
+        height: 750px;
+    }
+
+
+
+    .seoul-content-container{
+        background-color: white;
+    }
+    .article1-seoul{
+        align-items: center;
+    }
+    .article1-seoul h1{
+        text-align: center;
+    }
+    .img1-seoul{
+        width: 1100px;
+        height: 750px;
+        align-items: center;
+    }
+    .article2-seoul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img2-seoul{
+        height: 500px;
+        width: 325px;
+        margin: 50px;
+    }
+    .img3-seoul{
+        height: 500px;
+        width: 325px;
+        margin: 50px;
+    }
+    .img-seoul-container1{
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .article3-seoul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img4-seoul{
+        height: 500px;
+        width: 325px;
+        margin: 50px;
+    }
+    .img5-seoul{
+        height: 500px;
+        width: 325px;
+        margin: 50px;
+    }
+    .img-seoul-container2{
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .article4-seoul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .article5-seoul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img7-seoul{
+        width: 1100px;
+        height: 750px;
+    }
+    .img8-seoul{
+        width: 1000px;
+        height: 750px;
+    }
+    .article6-seoul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-seoul-container3{
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .img9-seoul{
+        height: 500px;
+        width: 325px;
+        margin: 50px;
+    }
+    .img10-seoul{
+        height: 500px;
+        width: 325px;
+        margin: 50px;
+    }
+    .tokyo-content-container{
+        background-color: white;
+    }
+    .img1-tokyo{
+        width: 1000px;
+        height: 750px;
+    }
+    .img2-tokyo{
+        width: 1000px;
+        height: 750px;
+    }
+    .img3-tokyo{
+        height: 500px;
+        width: 350px;
+        margin: 50px;
+    }
+    .img4-tokyo{
+        height: 500px;
+        width: 350px;
+        margin: 50px;
+    }
+    .img5-tokyo{
+        width: 1000px;
+        height: 750px;
+    }
+    .img6-tokyo{
+        height: 500px;
+        width: 350px;
+        margin: 50px;
+    }
+    .img7-tokyo{
+        height: 500px;
+        width: 350px;
+        margin: 50px;
+    }
+    .img8-tokyo{
+        width: 1000px;
+        height: 750px;
+    }
+    
+    .article1-tokyo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .article2-tokyo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .article3-tokyo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-tokyo-container1{
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .article4-tokyo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .article5-tokyo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-tokyo-container2{
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .article6-tokyo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .moskva-content-container{
+
+    }
+    .img1-moskva{
+        width: 1100px;
+        height: 750px;
+    }
+    .article2-moskva{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-moskva-container1{
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .img2-moskva{
+        height: 500px;
+        width: 325px;
+    }
+    .img3-moskva{
+        height: 500px;
+        width: 325px;
+    }
+    .article3-moskva{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img4-moskva{
+        width: 1100px;
+        height: 750px;
+    }
+    .article4-moskva{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img5-moskva{
+        width: 1100px;
+        height: 750px;
+    }
+    .article5-moskva{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img6-moskva{
+        width: 1100px;
+        height: 750px;
+    }
+    .article6-moskva{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img7-moskva{
+        width: 1100px;
+        height: 750px;
+    }
+
+}
+@media screen and (max-width:1299px){
+    .navbar{
+        display: none;
+    }
+    .seoul-content-container{
+        display: none;
+    }
+    .hamburgermenu{
+        border-bottom: 1px solid black;
+        text-align: left;
+        height: 70px;
+        line-height: 70px;
+    }
+    .meny{
+        display: none;
+        margin: 0 30px 0 0;
+        text-align: center;
+        width: 100%;
+    }
+    .meny a{
+        display: block;
+        text-decoration: none;
+        color: gray;
+        margin: 0 px;
+        line-height: 70px;
+        border: 1px solid black;
+        clear: right;
+    }
+    label{
+        margin: 0 30px;
+        font-size: 30px;
+        display: block;
+        cursor: pointer;
+        width: 30px;
+        float: right;
+    }
+    #toggle{
+        display: none;
+    }
+    #toggle:checked + .meny{
+        display: block;
+    }
+}
